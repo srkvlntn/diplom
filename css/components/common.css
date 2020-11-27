@@ -1,0 +1,48 @@
+/* Обертка которая обрезает все лишнее что выходит за ширину страници,
+к примеру если вы что то вытаскиваете марджинами то у вас появится горизонтальный скролл на странице, эта обертка его срезает
++ если вы забыли указать position: relative; на нужном блоке, это ваша отправная точка для позиционирования,
+чтобы не трогать body
+эта обертка есть в каждом проекте */
+
+.wrapper {
+	overflow: hidden;
+	position: relative;
+}
+
+/* Элемент который центрирует контент на странице (только центрирует) */
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+/* Обертка для полей формы */
+
+.form-group {
+	margin-bottom: ;
+}
+
+/* Поля формы */
+
+.form-control {
+
+}
+
+.form-control:focus {
+	outline: none;
+	border-color: ;
+}
+
+/* Стили для кроссбраузерности placeholder полей */
+
+.form-control::-webkit-input-placeholder {
+	color: #;
+}
+
+.form-control::-moz-placeholder {
+	color: ;
+}
+
+.form-control:-ms-input-placeholder {
+	color: ;
+}

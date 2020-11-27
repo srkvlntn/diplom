@@ -1,0 +1,35 @@
+// Общие стили для кнопок
+
+.btn {
+	transition: color .15s ease-in-out, border-color .15s ease-in-out, background-color .15s ease-in-out;
+	display: inline-block;
+	vertical-align: middle;
+	padding: 10px 20px;
+	border-radius: 3px;
+	text-align: center;
+	border: none;
+
+	&:hover {
+		text-decoration: none;
+		outline: none;
+	}
+}
+
+
+button{
+	display: flex;
+	margin: auto;
+	justify-content: center;
+	vertical-align: top;
+	padding: 25px 105px;
+	color: $white;
+	background-color: $blue;
+	border: none;
+	text-transform: uppercase;
+	margin-bottom: 80px;
+
+	&:hover {
+		color: $blue;
+		background-color: $white;
+	}
+}

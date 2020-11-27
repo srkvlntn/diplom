@@ -1,0 +1,51 @@
+.footer {
+	color: #515f67;
+	padding: 80px 0;
+	line-height: 2;
+	font-size: 10px;
+	background-color: $dark-grey;
+
+	.container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	p {
+		margin: 0;
+	}
+
+	ul {
+		list-style: none;
+		display: flex;
+	}
+
+li + li {
+	&::before,
+	{
+		content: '|';
+	}
+
+	}
+
+
+	a {
+		color: #515f67;
+		text-transform: uppercase;
+		padding: 6px;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+
+	.social-net-footer {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		display: flex;
+	}
+
+
+
+
+}
